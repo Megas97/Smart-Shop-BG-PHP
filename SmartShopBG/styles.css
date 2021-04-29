@@ -1,0 +1,338 @@
+/* Import the Lora font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+html {
+	height: 100%;
+}
+
+body {
+	margin-top: 76px;
+	background: url('background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 91.9%;
+	background-attachment: fixed;
+}
+
+.form-div {
+	margin: 50px auto auto auto;
+	padding: 25px 15px 10px 15px;
+	border: 1px solid #80ced7;
+	border-radius: 5px;
+	font-size: 1.1em;
+	font-family: 'Lora', 'serif';
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+form p {
+	font-size: 0.89em;
+}
+
+.form-div.login {
+	margin-top: 100px;
+}
+
+.logout {
+	color: red;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	background: #0099FF;
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+#navbar ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+#navbar li {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+#navbar a {
+	color: white;
+}
+
+#navbar button {
+	background: url('hamburger.png');
+	background-size: 100% 100%;
+}
+
+.phone-form {
+	height: 550px;
+}
+
+.mapouter-profile {
+	position: relative;
+	text-align: right;
+	height: 376px;
+	width: 376px;
+}
+
+.gmap_canvas-profile {
+	overflow: hidden;
+	background: none !important;
+	height: 376px;
+	width: 376px;
+}
+
+.mapouter-contacts {
+	position: relative;
+	text-align: right;
+	height: 276px;
+	width: 276px;
+}
+
+.gmap_canvas-contacts {
+	overflow: hidden;
+	background: none !important;
+	height: 276px;
+	width: 276px;
+}
+
+iframe {
+	margin-right: 88px;
+}
+
+.dropdown-full-width {
+	width: 100%;
+}
+
+.like-button {
+	background: green url('thumbs-up.png');
+	background-size: 100% 100%;
+	width: 48px;
+	height: 48px;
+}
+
+.like-button:hover {
+	background-color: gray;
+}
+
+.dislike-button {
+	background: red url('thumbs-down.png');
+	background-size: 100% 100%;
+	width: 48px;
+	height: 48px;
+}
+
+.dislike-button:hover {
+	background-color: gray;
+}
+
+.center-message {
+	text-align: center;
+}
+
+.circle-cart {
+	border: 1px solid white;
+    border-radius: 50%;
+	padding: 0px 6px 0px 6px;
+}​
+
+.add-button {
+	background: transparent url('add.png');
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+}
+
+.info-button {
+	background: transparent url('info.png');
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+}
+
+.remove-button {
+	background: transparent url('remove.png');
+	background-size: 100% 100%;
+	width: 24px;
+	height: 24px;
+}
+
+/*************************/
+/* Responsive Cart Table */
+/*************************/
+/* Generic Styling, for Desktops/Laptops */
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* For some reason it bugs if we have only one table selector, even though they're the same */
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	background: #0099FF;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	padding: 6px;
+	border: 1px solid #CCC;
+	text-align: center;
+}
+
+/* Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically. */
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr {
+		border: 1px solid #CCC;
+	}
+	
+	td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #CCC;
+		position: relative;
+		padding-left: 50%;
+	}
+	
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	/* Label the data */
+	td:nth-of-type(1):before {
+		content: "";
+		color: white;
+	}
+	
+	td:nth-of-type(2):before {
+		content: "Phone Make";
+		color: white;
+	}
+	
+	td:nth-of-type(3):before {
+		content: "Phone Model";
+		color: white;
+	}
+	
+	td:nth-of-type(4):before {
+		content: "Phone Quantity";
+		color: white;
+	}
+	
+	td:nth-of-type(5):before {
+		content: "Phone Single Price";
+		color: white;
+	}
+	
+	td:nth-of-type(6):before {
+		content: "Phone Total Price";
+		color: white;
+	}
+	
+	td:nth-of-type(7):before {
+		content: "Actions";
+		color: white;
+	}
+}
+
+/* Social Media Buttons */
+#socialMediaContainer {
+	text-align: center;
+	font-size:30px;
+}
+
+#socialMediaContainer a:hover, #socialMediaContainer a:visited, #socialMediaContainer a:link, #socialMediaContainer a:active {
+	text-decoration: none;
+	color: white;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 70px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-skype {
+	background: #00AFF0;
+	color: white;
+}
+
+/* Scroll To Top Button */
+#scrollToTopBtn {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    display: none;
+    outline: none;
+}
+
+/*Select phones to show dropdown */
+#phonesSelectDiv {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+#phonesSelect {
+	width: 200px;
+}
