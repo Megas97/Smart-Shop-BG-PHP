@@ -1,0 +1,54 @@
+User Registration And Email Verification With PHP And MySQL database on localhost: https://www.youtube.com/watch?v=8K4Wt37Itc4
+User Registration And Email Verification PHP And MySQL Database - Part 2: https://www.youtube.com/watch?v=C-ZSQMbsm7A
+Password Reset System PHP And MySQL #3: https://www.youtube.com/watch?v=bWUSX8CzbRw
+How To Code A Navbar Using PHP: https://www.youtube.com/watch?v=Np7JNl9fJW4
+How To Upload Image To MySQL Database And Display It Using PHP: https://www.youtube.com/watch?v=Ipa9xAs_nTg
+How To Delete Image From Database And Folder With PHPMYSQL: https://www.youtube.com/watch?v=AIxpwQ-SWac
+Like And Unlike Posts PHP MySQL - Short Version: https://www.youtube.com/watch?v=6e3LOve0YgU
+Create Simple Shopping Cart Using PHP & MySQL: https://www.youtube.com/watch?v=0wYSviHeRbs
+
+Force Decimal Point Instead Of Comma In HTML <input>: https://stackoverflow.com/questions/6178332/force-decimal-point-instead-of-comma-in-html5-number-input-client-side
+Embed Google Maps: https://www.embedgooglemap.net
+Replace Spaces With %20 In URL In PHP: https://stackoverflow.com/questions/9240556/using-php-replace-spaces-in-urls-with-20
+Bootstrap Responsive Navbar: https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
+Center <nav> Items In Bootstrap: https://stackoverflow.com/questions/43738067/how-to-center-nav-items-in-bootstrap
+Create Fixed Position Menu With CSS: https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+CSS z-index Property: https://www.w3schools.com/cssref/pr_pos_z-index.asp
+Disable HTML Links: https://css-tricks.com/how-to-disable-links/
+Bootstrap Buttons: https://getbootstrap.com/docs/4.0/components/buttons/
+Bootstrap Modal Dialog: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_modal&stacked=h
+Embed Image In A HTML Button Element: https://stackoverflow.com/questions/8683528/embed-image-in-a-button-element
+Create Like/Dislike Bar Based On Two Numbers In PHP: https://stackoverflow.com/questions/18263544/create-a-like-dislike-bar-based-on-two-numbers-php
+Horizontally Center <div> Inside Another <div>: https://www.w3docs.com/snippets/css/how-to-horizontally-center-a-div-in-another-div.html
+Change <button> Color On Hover: https://stackoverflow.com/questions/3898781/how-can-i-change-a-buttons-color-on-hover
+Get Base URL In PHP: https://stackoverflow.com/questions/2820723/how-do-i-get-the-base-url-with-php
+Get Current Page Name In PHP: https://stackoverflow.com/questions/13032930/how-to-get-current-php-page-name
+Get And Set Scroll Position Of Page: https://www.javascripttutorial.net/dom/css/get-and-set-scroll-position-of-the-document/
+Ternary Operator With echo In PHP: https://stackoverflow.com/questions/28602388/ternary-operator-in-php-with-echo-value
+Simulate Mobile viewport On PC In Chrome: https://developer.chrome.com/docs/devtools/device-mode/#viewport
+Responsive Table: https://css-tricks.com/responsive-data-tables/
+Use HTML Link To Call JavaScript Function: https://stackoverflow.com/questions/688196/how-to-use-a-link-to-call-javascript
+Delete Array Element Based On Key And Reindex Array In PHP: https://www.geeksforgeeks.org/how-to-delete-an-array-element-based-on-key-in-php/
+Reindex Array After Deleting An Element In PHP: https://www.geeksforgeeks.org/removing-array-element-and-re-indexing-in-php/
+Add Circle Around <sup> Element: https://stackoverflow.com/questions/11378556/sup-element-and-rounded-corners
+Social Media Buttons: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons2
+Remove Underline From HTML Link: https://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link
+Scroll To Top Button In JavaScript: https://dev.to/ljcdev/scroll-to-top-button-in-vanilla-js-beginners-2nc
+UTF-8 Arrows: https://www.w3schools.com/charsets/ref_utf_arrows.asp
+SQL LEFT JOIN: https://www.w3schools.com/sql/sql_join_left.asp
+SQL LEFT JOIN And WHERE: https://stackoverflow.com/questions/19636436/sql-server-left-join-and-where-clause
+Convert MySQL Result To An Array In PHP: https://stackoverflow.com/questions/47176675/how-to-convert-the-mysql-result-to-an-array-in-php/47178652
+Change Key Of An Array Element In PHP: https://stackoverflow.com/questions/240660/in-php-how-do-you-change-the-key-of-an-array-element
+Horizontal And Vertical Align In CSS: https://www.w3schools.com/css/css_align.asp
+Submit <form> When <select> Value Changes: https://stackoverflow.com/questions/7231157/how-to-submit-form-on-change-of-dropdown-list
+Check If A Given Key Or Index Exists In An Array In PHP: https://www.w3resource.com/php/function-reference/array_key_exists.php
+Difference Between SQL JOIN Clauses: https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join
+Make <body> Element Take Up 100% Of The Browser Height: https://www.kirupa.com/html5/make_body_take_up_full_browser_height.htm
+Keep Background Image Fixed During Scrolling In CSS: https://stackoverflow.com/questions/2662039/keep-background-image-fixed-during-scroll-using-css
+Enable Bootstrap Navbar Scrolling To Reveal All Items: https://stackoverflow.com/questions/62035777/bootstrap-mobile-menu-not-scrolling-instead-the-background-is-scrolling
+Bootstrap Grid System: https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-grid-system.php
+HTML <button> To Open Link In New Tab: https://stackoverflow.com/questions/4643958/open-button-in-new-window
+Add Favicon To All Needed Places: https://realfavicongenerator.net
+
+Failed To Authenticate On SMTP Server Error Using Gmail: https://stackoverflow.com/questions/33939393/failed-to-authenticate-on-smtp-server-error-using-gmail
+Force Reload Of All Site Resoures While On Mobile: https://r2.community.samsung.com/t5/Tech-Talk/Samsung-Internet-Browser-Privacy-at-its-heart/td-p/5445029
